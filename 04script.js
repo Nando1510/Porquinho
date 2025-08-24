@@ -17,7 +17,7 @@ async function conversao(event){
     }
 
     const cotacao = real / dolar.value
-
+                                                                            //TROCA A VÍRGULA (CASO ENCONTRE) POR PONTO
     document.getElementById('resultado').innerText = `R$ ${cotacao.toFixed(2).replace(",",".")}`
    
 }
