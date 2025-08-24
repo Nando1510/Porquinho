@@ -18,7 +18,7 @@ async function conversao(event){
 
     const cotacao = real / dolar.value
 
-    document.getElementById('resultado').innerText = `R$ ${cotacao.toFixed(2)}`
+    document.getElementById('resultado').innerText = `R$ ${cotacao.toFixed(2).replace(",",".")}`
    
 }
 
